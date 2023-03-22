@@ -12,4 +12,7 @@
 
 7 - Ao tentar excultar tudo em maiuclulos foi impresso o seguinte erro. fotebol.java:1: erro: o horário da classe é público, deve ser declarado em um arquivo chamado time.java public class time { ^ fotebol.java:3: erro: não foi possível encontrar o símbolo public static void main(string[] args) { ^ símbolo: classe string localização: horário da aula fotebol.java:4: erro: o sistema de pacotes não existe system.out.println("iago alves"); ^ fotebol.java:5: erro: o sistema de pacotes não existe system.out.println("Corinthians");
 
-8 - ao tentar compilar com nome do arquivo diferente da classe, foi impresso o segundo erro. Futebol.java:1: erro: class Time é público, deve ser declarado em um arquivo chamado Time.java public class Time { ^ 1 erro
+8 - ao tentar compilar com nome do arquivo diferente da classe, foi impresso o segundo erro. Futebol.java:12: error: class Time is public, should be declared in a file named Time.java
+public class Time {
+^
+1 error
